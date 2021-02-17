@@ -1,4 +1,4 @@
-src-git small https://github.com/kenzok8/small
+#src-git small https://github.com/kenzok8/small
 src-git lienol https://github.com/xiaorouji/openwrt-passwall
 src-git jerrykuku https://github.com/jerrykuku/luci-app-vssr
 
