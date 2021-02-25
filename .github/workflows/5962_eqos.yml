@@ -1,3 +1,4 @@
+
 #
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
@@ -8,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 5962_eqos
+name: eqos5962
 
 on:
   repository_dispatch:
@@ -17,7 +18,7 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: false
-        default: 'ture'
+        default: 'true'
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
@@ -26,8 +27,8 @@ env:
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
-  UPLOAD_BIN_DIR: true
-  UPLOAD_FIRMWARE: false
+  UPLOAD_BIN_DIR: false
+  UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: false
