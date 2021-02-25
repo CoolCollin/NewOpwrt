@@ -1,8 +1,8 @@
 src-git small https://github.com/kenzok8/small
 src-git lienol https://github.com/xiaorouji/openwrt-passwall
 src-git jerrykuku https://github.com/jerrykuku/luci-app-vssr
-src-git littletao08 https://github.com/littletao08/luci-app-eqos
-src-git vernesong https://github.com/vernesong/OpenClash
+src-git zengdev https://github.com/zengdev/eqos
+## src-git vernesong https://github.com/vernesong/OpenClash
 
 src-git packages https://github.com/coolsnowwolf/packages
 src-git luci https://github.com/coolsnowwolf/luci
@@ -15,3 +15,4 @@ src-git management https://github.com/openwrt-management/packages.git
 src-git oldpackages http://git.openwrt.org/packages.git
 src-link custom /usr/src/openwrt/custom-feed
 src-git helloworld https://github.com/fw876/helloworld
+
