@@ -1,7 +1,7 @@
 src-git small https://github.com/kenzok8/small
 src-git lienol https://github.com/xiaorouji/openwrt-passwall
 src-git jerrykuku https://github.com/jerrykuku/luci-app-vssr
-src-git lwxlwxlwx https://github.com/lwxlwxlwx/eqos
+src-git littletao08 https://github.com/littletao08/luci-app-eqos
 src-git vernesong https://github.com/vernesong/OpenClash
 
 src-git packages https://github.com/coolsnowwolf/packages
