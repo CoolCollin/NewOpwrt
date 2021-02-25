@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 5962
+name: 5962_eqos
 
 on:
   repository_dispatch:
@@ -20,7 +20,7 @@ on:
         default: 'ture'
 
 env:
-  REPO_URL: https://github.com/garypang13/luci-app-eqos.git
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
