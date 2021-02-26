@@ -9,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: eqos5962
+name: HC5962-IPV6
 
 on:
   repository_dispatch:
