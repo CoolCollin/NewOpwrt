@@ -9,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: HC5962-ntfs
+name: HC5962-vssr
 
 on:
   repository_dispatch:
